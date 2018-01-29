@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/******* FULL SCREEN IMAGE *******/
+
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(../img/wallhaven-280546.jpg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 300%;
+    line-height: .5em;
+}
+
+.btn {
+    border-radius: 9px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 140%;
+    padding: 10px 20px;
+    border: solid 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #4c4c4c;
+    border: solid #4c4c4c 3px;
+}
+
+/******* NAVBAR *******/
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: black;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: solid 1px;
+}
+
+/******* ABOUT  *******/
+
+.aboutContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    margin: 25px auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutBox1{
+    grid-column-start: span 3;
+    margin-top: 100px;
+}
+
+.aboutContent div{
+    padding: 30px;
+}
+
+.profilePic {
+    width: 250px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.educationPic {
+    width: 100px;
+    height: auto;
+}
+
+/******* PORTFOLIO  *******/
+
+.aboutportfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 1fr 1fr;
+    grid-gap: 10px;
+    margin: 25px auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portfolioTitle {
+    border-top: solid black 1px;
+    grid-column-start: span 3;
+    margin: 0 5% 0 5%;
+}
+
+.aboutportfolio div{
+    padding: 30px;
+}
+
+.projectBox{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.projectPic {
+    height: auto;
+    background: url(../img/150x150.png);
+    background-size: cover; 
+    background-position: center;
+}
+
+.projectDis {
+    
+}
+/******* CONTACT  *******/
+
+.contact-title {
+    margin-top: 100px;
+    color: black;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-title h1 {
+    font-size: 32px;
+    line-height: 10px;
+    margin-bottom: 40px;
+}
+
+.contact-title p {
+    margin-bottom: 40px;
+}
+
+/******* FOOTER  *******/
+
+footer {
+    width: 100%;
+    background-color: black;
+    padding: 50px 0px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer div ul {  
+    height: 50px;
+    margin-bottom: 85px; 
+}
+
+footer div ul li {
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: .95em;
+    line-height: 2.5em;
+}
+
+footer div ul li a{
+    padding: 1px 0 0 0;
+    color: white;
+}
+
+.copyright {
+    font-size: 12px;
+}

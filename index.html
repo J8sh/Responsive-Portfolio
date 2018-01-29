@@ -2,54 +2,136 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>About | Joshua Garcia</title>
-  <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Josh Garcia | Web Developer</title>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Joshua Garcia</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="Me.jpg" class="auth-image" alt="Your Name">
-
-      <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
-
-      <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
-
+    <!---------- Full Screen image ---------->
+    <section class="intro">
+        <div class="inner">
+            <div class="content">
+                <h1>Hi, I'm Josh.</h1>
+                <h1>I'm a Web Developer</h1>
+                <a class="btn" href="#aboutMe">About Me</a>
+            </div>
+        </div>
     </section>
-
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
-
-        <a href="#"><img src="github pic.png" class="social" alt="GitHub" /></a>
-        <a href="#"><img src="linkedin pic.png" class="social" alt="LinkedIn" /></a>
-        <a href="#"><img src="stackoverflow pic.png" class="social" alt="Stack Overflow" /></a>
-      </div>
-    </section>
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 2016 Joshua Garcia
+    <!---------- Sticky navbar ---------->
+    <nav>
+        <ul class ="menu">
+            <li><a href="#">|    Home   |</a></li>
+            <li><a href="#aboutMe">|   About Me    |</a></li>
+            <li><a href="#portfolio">|   Portfolio   |</a></li>
+            <li><a href="#contactDiv">|   Contact   |</a></li>
+        </ul>
+    </nav>
+    <!---------- About Me ---------->
+    <div id="aboutMe" class="aboutContent">
+        <div class="aboutBox1">
+            <img class="profilePic" src="assets/img/Profile-pic-resize.jpg" alt="Profile Picture">
+        </div>
+        <div>
+            <h3>EDUCATION</h3>
+            <p>Full Stack Web Development Certification from University of Kansas.</p>
+            <img class="educationPic" src="assets/img/books.jpg" alt="Education Picture">            
+        </div>
+        <div>
+            <h3>FRONTEND</h3>
+            <p></p>
+            <h1>< / ></h1>
+        </div>
+        <div>
+            <h3>BACKEND</h3>
+            <p></p>
+            <h1>{ ; }</h1>
+        </div>
     </div>
-  </footer>
+    <!---------- Portfolio ---------->
+    <div id="portfolio" class="aboutportfolio">
+        <div class="portfolioTitle">
+            <h1>PORTFOLIO</h1>
+        </div>
+        <div class="projectBox">
+            <div class="projectPic"></div>
+            <div class="projectDis">
+                <h4>PROJECT</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet suscipit nisi voluptatem sint aspernatur explicabo enim officia. Ipsa, iusto facilis.</p>
+            </div>
+        </div>
+        <div class="projectBox">
+            <div class="projectPic"></div>
+            <div class="projectDis">
+                <h4>PROJECT</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, doloribus ea placeat debitis dolorem totam autem quos similique ipsum exercitationem.</p>
+            </div>
+        </div>
+        <div class="projectBox">
+            <div class="projectPic"></div>
+            <div class="projectDis">
+                <h4>PROJECT</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque veniam ipsa et quia quae quasi, non sapiente eius id enim!</p>
+            </div>
+        </div>
+        <div class="projectBox">
+            <div class="projectPic"></div>
+            <div class="projectDis">
+                <h4>PROJECT</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate ratione corrupti recusandae laboriosam ipsum quae totam consequatur quisquam sunt at.</p>
+            </div>
+        </div>
+        <div class="projectBox">
+            <div class="projectPic"></div>
+            <div class="projectDis">
+                <h4>PROJECT</h4>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius nesciunt reiciendis natus cum ab aut suscipit delectus atque ad.</p>
+            </div>
+        </div>
+        <div class="projectBox">
+            <div class="projectPic"></div>
+            <div class="projectDis">
+                <h4>PROJECT</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga fugiat voluptas totam, veniam consectetur dolor recusandae iste temporibus commodi deserunt!</p>
+            </div>
+        </div>
+    </div>
+    <!---------- Contact Me ---------->
+
+    <div id="contactDiv" class="contact-title">
+        <h1>Contact Me!</h1>
+        <p>Email me with any questions you have</p>
+
+        <a class="btn" href="mailto:j8shigarcia@aol.com">Email Me</a>
+        <p>Manhattan, Ks</p>
+        <p>785.556.0058</p>        
+    </div>
+
+    <!---------- Footer ---------->
+    <footer>
+        <div class="footWrapper">
+           <!-- not working out
+             <ul>
+                <li><a href="https://github.com/J8sh"><img src="assets/img/github.png" alt="" class="connect-with-me-photo"></a></li>
+                <li><a href="https://www.linkedin.com/in/joshigarcia/"><img src="assets/img/linkedin.png" alt="www.linkedin.com/in/joshigarcia" class="connect-with-me-photo"></a></li>
+                <li><a href="https://twitter.com/j8sh"><img src="assets/img/twiiter.jpg" alt="" class="connect-with-me-photo"></a></li>
+            </ul>
+        -->
+            <ul>
+                <li><a href="https://github.com/J8sh">|   Github  |</a>
+                    <a href="https://www.linkedin.com/in/joshigarcia/">|  LinkedIn  |</a>
+                    <a href="https://twitter.com/j8sh">|  Twitter  |</a>
+                </li>
+            </ul>
+            <div class="copyright"><i>&copy; Copyright 2018 Joshua Garcia</i></div>
+        </div>
+    </footer>
+
+<script src="assets/js/portfolio.js"></script>
 </body>
 
 </html>
