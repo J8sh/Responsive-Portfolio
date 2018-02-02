@@ -149,9 +149,23 @@ ul li a {
     grid-template-rows: 1fr 1fr;
 }
 
-.projectPic {
+.projectPic1 {
     height: auto;
-    background: url(../img/150x150.png);
+    background: url(../img/MongoScraper-logo.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+
+.projectPic2 {
+    height: auto;
+    background: url(../img/Burger.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+
+.projectPic3 {
+    height: auto;
+    background: url(../img/PsychicgameLogo.jpg);
     background-size: cover; 
     background-position: center;
 }
