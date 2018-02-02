@@ -7,13 +7,17 @@ html, body {
     width: 100%;
 }
 
+.wrapper {
+    margin: 0 10% 0 10%;
+}
+
 /******* FULL SCREEN IMAGE *******/
 
 .intro{
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url(../img/wallhaven-280546.jpg) no-repeat 50% 50%;
+    background: url('../img/city22.jpg') no-repeat 50% 50%;
     display: table;
     top: 0;
     background-size: cover;
@@ -30,27 +34,30 @@ html, body {
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
+    color: orange;
 }
 
 .content h1 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 300%;
-    line-height: .5em;
+    font-size: 500%;
+    line-height: 1.5em;
+    
 }
 
 .btn {
     border-radius: 9px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 140%;
+    font-size: 300%;
     padding: 10px 20px;
     border: solid 3px;
     text-transform: uppercase;
     text-decoration: none;
+    color: orange;
 }
 
 .btn:hover {
-    color: #4c4c4c;
-    border: solid #4c4c4c 3px;
+    color: white;
+    border: solid white 3px;
 }
 
 /******* NAVBAR *******/
@@ -86,8 +93,8 @@ ul li a {
 
 .aboutContent{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 33% 33% 33%;
     grid-gap: 5px;
     margin: 25px auto;
     text-align: center;
@@ -95,8 +102,8 @@ ul li a {
 }
 
 .aboutBox1{
-    grid-column-start: span 3;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .aboutContent div{
@@ -104,9 +111,8 @@ ul li a {
 }
 
 .profilePic {
-    width: 250px;
+    width: 100%;
     height: auto;
-    border-radius: 100%;
 }
 
 .educationPic {
@@ -114,12 +120,14 @@ ul li a {
     height: auto;
 }
 
+
+
 /******* PORTFOLIO  *******/
 
 .aboutportfolio{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 1fr 1fr 1fr;
     grid-gap: 10px;
     margin: 25px auto;
     text-align: center;
@@ -128,8 +136,7 @@ ul li a {
 
 .portfolioTitle {
     border-top: solid black 1px;
-    grid-column-start: span 3;
-    margin: 0 5% 0 5%;
+    font-size: 250%
 }
 
 .aboutportfolio div{
@@ -149,9 +156,6 @@ ul li a {
     background-position: center;
 }
 
-.projectDis {
-    
-}
 /******* CONTACT  *******/
 
 .contact-title {
@@ -171,7 +175,12 @@ ul li a {
 }
 
 .contact-title p {
-    margin-bottom: 40px;
+    font-size: 83%;
+    margin-bottom: 70px;
+}
+
+#pUnderBtn {
+    margin-top: 80px;
 }
 
 /******* FOOTER  *******/
@@ -187,14 +196,18 @@ footer {
 
 footer div ul {  
     height: 50px;
-    margin-bottom: 85px; 
+    margin-bottom: 50px; 
 }
 
 footer div ul li {
-    margin: 0 auto;
+    margin: 0 auto 20% auto;
     text-transform: uppercase;
-    font-size: .95em;
+    font-size: 250%;
     line-height: 2.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 25px
 }
 
 footer div ul li a{
@@ -203,5 +216,28 @@ footer div ul li a{
 }
 
 .copyright {
-    font-size: 12px;
+    padding-top: 50px;
+    font-size: 75%;
 }
+
+/******* @MEDIA  *******/
+
+/* Small devices (landscape phones, 576px and up)*
+@media (min-width: 320px) { 
+ }
+
+/* Medium devices (tablets, 768px and up)*
+@media (min-width: 768px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up)*
+@media (min-width: 992px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*
+@media (min-width: 1200px) { 
+
+ }
+ */
