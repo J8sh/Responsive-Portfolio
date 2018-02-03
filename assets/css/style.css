@@ -154,12 +154,11 @@ html, body {
 /******* CONTACT  *******/
 
 .contact-title {
-    margin-top: 50px;
+    margin: 50px 5%;
     color: black;
     text-transform: uppercase;
     transition: all 4s ease-in-out;
     text-align: center;
-    margin-bottom: 50px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -190,29 +189,25 @@ footer {
 }
 
 footer div ul {  
-    height: 50px;
+    height: 30px;
     margin-bottom: 50px; 
+    padding-left: 0px;
 }
 
 footer div ul li {
     margin: 0 auto 20% auto;
-    text-transform: uppercase;
-    font-size: 250%;
-    line-height: 2.5em;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 25px
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr; 
 }
 
-footer div ul li a{
-    padding: 1px 0 0 0;
-    color: white;
+.icon {
+    fill: white;
 }
 
 .copyright {
     padding-top: 50px;
-    font-size: 75%;
+    font-size: 95%;
 }
 
 /******* @MEDIA  *******/
