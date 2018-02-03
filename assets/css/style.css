@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
-
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:900');
 html, body {
     margin: 0;
     padding: 0;
@@ -27,19 +27,19 @@ html, body {
     display: table-cell;
     vertical-align: middle;
     width: 100%;
-    max-width: none;
+    max-width: 100%;
 }
 
 .content{
-    max-width: 500px;
+    max-width: 100%;
     margin: 0 auto;
     text-align: center;
     color: orange;
 }
 
 .content h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 500%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 300%;
     line-height: 1.5em;
     
 }
@@ -47,7 +47,7 @@ html, body {
 .btn {
     border-radius: 9px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 300%;
+    font-size: 100%;
     padding: 10px 20px;
     border: solid 3px;
     text-transform: uppercase;
@@ -147,6 +147,7 @@ ul li a {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+    font-size: 16px;
 }
 
 .projectPic1 {
@@ -236,22 +237,3 @@ footer div ul li a{
 
 /******* @MEDIA  *******/
 
-/* Small devices (landscape phones, 576px and up)*
-@media (min-width: 320px) { 
- }
-
-/* Medium devices (tablets, 768px and up)*
-@media (min-width: 768px) { 
-
- }
-
-/* Large devices (desktops, 992px and up)*
-@media (min-width: 992px) { 
-
- }
-
-/* Extra large devices (large desktops, 1200px and up)*
-@media (min-width: 1200px) { 
-
- }
- */
