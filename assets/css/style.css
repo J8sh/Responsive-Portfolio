@@ -115,11 +115,12 @@ html, body {
 
 .portfolioTitle {
     border-top: solid black 1px;
-    font-size: 250%
+    font-size: 100%;
+    margin: 0px 6%
 }
 
 .aboutportfolio div{
-    padding: 30px;
+    padding: 30px 5%;
 }
 
 .projectBox{
@@ -131,7 +132,7 @@ html, body {
 
 .projectPic1 {
     height: auto;
-    background: url(../img/MongoScraper-logo.jpg);
+    background: url(../img/MongoScraperLogo.jpg);
     background-size: cover; 
     background-position: center;
 }
@@ -153,7 +154,7 @@ html, body {
 /******* CONTACT  *******/
 
 .contact-title {
-    margin-top: 100px;
+    margin-top: 50px;
     color: black;
     text-transform: uppercase;
     transition: all 4s ease-in-out;
@@ -163,18 +164,18 @@ html, body {
 }
 
 .contact-title h1 {
-    font-size: 32px;
+    font-size: 150%;
     line-height: 10px;
     margin-bottom: 40px;
 }
 
 .contact-title p {
-    font-size: 83%;
-    margin-bottom: 70px;
+    font-size: 100%;
+    margin-bottom: 50px;
 }
 
 #pUnderBtn {
-    margin-top: 80px;
+    margin-top: 55px;
 }
 
 /******* FOOTER  *******/
