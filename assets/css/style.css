@@ -53,6 +53,10 @@ html, body {
     text-transform: uppercase;
     text-decoration: none;
     color: orange;
+}    
+
+.aboutBtn{
+  background: rgba(49, 49, 49, .6);
 }
 
 .btn:hover {
@@ -66,22 +70,13 @@ html, body {
 .aboutContent{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 33% 33% 33%;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 5px;
     margin: 25px auto;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     padding: 0 5%;
-}
-
-.profilePic {
-    width: 85%;
-    height: auto;
-    border-radius: 50%;
-}
-
-.aboutBox1 {
-    margin-top: 70px; 
+    line-height: 1.40em;
 }
 
 .aboutContent div {
@@ -129,7 +124,13 @@ html, body {
     grid-template-rows: 1fr 1fr;
     font-size: 16px;
 }
-
+.projectDis {
+    line-height: 1.40em;
+}
+.projectPic {
+    border: black solid 2px;
+    border-radius: 9px;
+}
 .projectPic1 {
     height: auto;
     background: url(../img/MongoScraperLogo.jpg);
@@ -212,3 +213,152 @@ footer div ul li {
 
 /******* @MEDIA  *******/
 
+/* FOR TABLETS */
+@media screen and (min-width: 426px){
+    .wrapper {
+        margin: 0 22%;
+    }
+
+    /******* FOOTER  *******/
+
+    footer div ul li {
+        margin: 0 35% 0 35%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr; 
+    }
+
+    .copyright {
+        padding-top: 0;
+    }
+}
+
+/* FOR LAPTOPS */
+@media screen and (min-width: 769px){
+    .wrapper {
+        margin: 0;
+    }
+
+    /******* ABOUT  *******/
+
+    .aboutContent{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 5px;
+        margin: 100px auto;;
+        padding: 0 5%;
+    }
+
+    .aboutContent div {
+        padding: 30px 5px;
+    }
+
+    .aboutContent h1 {
+        font-size: 300%;
+    }
+
+    .aboutBox3 {
+        background-color: rgb(236, 194, 116);
+    }
+    
+    /******* PORTFOLIO  *******/
+
+    .aboutportfolio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 1fr 1fr;
+        grid-gap: 10px;
+        margin: 25px auto;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .portfolioTitle {
+        grid-column-start: span 2;
+        border-top: solid black 1px;
+        font-size: 100%;
+        margin: 0px 6%
+    }
+
+    .aboutportfolio div{
+        padding: 30px 10%;
+    }
+
+    .projectBox{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        font-size: 16px;
+    }
+
+    .projectBox3 {
+        grid-column-start: span 2;
+        margin: 0 20%;
+    }
+
+}
+
+/* FOR LARGE LAPTOPS AND DESKTOP */
+@media screen and (min-width: 1025px){
+    /******* PORTFOLIO  *******/
+
+    .aboutportfolio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 1fr 1fr 1fr;
+        grid-gap: 10px;
+        margin: 25px auto;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .aboutportfolio div{
+        padding: 30px 20%;
+    }
+
+    .projectBox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        font-size: 16px;
+    }
+
+     .portfolioTitle {
+        grid-column-start: span 2;
+        border-top: solid black 1px;
+        font-size: 100%;
+        margin: 0px 6%
+    } 
+
+    .projectBox1 {
+        grid-column-start: span 2;
+        grid-row-start: 2;
+    }
+
+    .projectBox2 {
+        grid-row-start: 3;
+        grid-column-start: span 2;
+    }
+
+    .projectBox3 {
+        grid-row-start: 4; 
+        grid-column-start: span 2;
+        margin: 0;
+    }
+
+    /******* FOOTER  *******/
+
+    footer div ul li {
+        margin: 0 40% 0 40%;
+    }
+}
+
+/* FOR DESKTOP */
+@media screen and (min-width: 1441px){
+    
+    .wrapper {
+        margin: 0 20%;
+    }
+
+}
