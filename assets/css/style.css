@@ -128,7 +128,7 @@ html, body {
     line-height: 1.40em;
 }
 .projectPic {
-    border: black solid 2px;
+    box-shadow: 4px 5px rgb(54, 53, 53);
     border-radius: 9px;
 }
 .projectPic1 {
