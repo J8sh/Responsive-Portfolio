@@ -236,7 +236,8 @@ footer div ul li {
 /* FOR LAPTOPS */
 @media screen and (min-width: 769px){
     .wrapper {
-        margin: 0;
+        width: 960px;
+        margin: 0 auto;
     }
 
     /******* ABOUT  *******/
@@ -303,6 +304,11 @@ footer div ul li {
 @media screen and (min-width: 1025px){
     /******* PORTFOLIO  *******/
 
+    .wrapper{
+        width: 960px;
+        margin: 0px auto;
+    }
+
     .aboutportfolio{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -314,7 +320,7 @@ footer div ul li {
     }
 
     .aboutportfolio div{
-        padding: 30px 20%;
+        padding: auto 20%;
     }
 
     .projectBox{
@@ -358,7 +364,8 @@ footer div ul li {
 @media screen and (min-width: 1441px){
     
     .wrapper {
-        margin: 0 20%;
+        width: 960px;
+        margin: 0px auto;
     }
 
 }
